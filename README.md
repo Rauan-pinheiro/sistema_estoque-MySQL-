@@ -36,10 +36,8 @@ Este é um sistema simples de gerenciamento de estoque utilizando **Python** e *
     pip install mysql-connector-python
   
 ## Como executar
-1. Clone o repositório
-   git clone https://github.com/seu-usuario/sistema-estoque.git cd sistema-estoque
 
-2. Atualize os dados de conexão no script
+1. Atualize os dados de conexão no script
 No trecho abaixo do arquivo sistema_de_estoque(MySQL).py, altere se necessário!
 
 conexao = mysql.connector.connect(
@@ -49,10 +47,10 @@ conexao = mysql.connector.connect(
     database = "estoque"
 )
 
-3. Execute o script
+2. Execute o script
    python sistema_de_estoque(MySQL).py
 
-4. Siga as opções do menu
+3. Siga as opções do menu
   [0] Para sair do programa.
   [1] Adicionar novo produto.
   [2] Ver o estoque.
